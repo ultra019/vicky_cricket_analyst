@@ -1,0 +1,216 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head><!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1304729237688395');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1304729237688395&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VICKY | CRICKET ANALYST 👑</title>
+  <link rel="icon" href="./logo.jpg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root {
+      --primary-color: #00c6d8;
+      --secondary-color: #fe0000;
+      --accent-color: #fb23ff;
+      --bg-gradient: linear-gradient(to right, #8e8a8a, #ff0077, #ff69b4);
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      /* background: var(--bg-gradient); */
+      background-image: url(back.avif);
+    
+      color: var(--secondary-color);
+      overflow: hidden;
+    }
+
+    h1 {
+      animation: textGlow .5s ease-in-out infinite alternate;
+    }
+
+    @keyframes textGlow {
+      0% {
+        text-shadow: 0 0 5px var(--accent-color), 0 0 10px var(--primary-color);
+      }
+      100% {
+        text-shadow: 0 0 20px var(--accent-color), 0 0 30px var(--primary-color);
+      }
+    }
+
+    .animated-button {
+      background: var(--primary-color);
+      color:white;
+       padding: 12px 24px;
+      border-radius: 0px;
+      font-size: 1rem;
+      font-weight: bold;
+      animation: buttonBounce 1.5s infinite;
+      transition: transform 0.3s;
+    }
+
+    @keyframes buttonBounce {
+      0%, 100% {
+        transform: scale(.9);
+      }
+      50% {
+        transform: scale(.8);
+      }
+    }
+
+
+
+    @media (max-width: 640px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .animated-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+    }
+    .loader-container {
+      position: relative;
+      width: 100px;
+      height: 100px;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      border: 10px solid #444;
+      /* border-radius: 50%; */
+      position: absolute;
+      animation: rotate 3s linear forwards infinite;
+      border-color: goldenrod;
+    }
+
+    .countdown {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    @keyframes rotate {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+
+<body class="bodybox text-white " style="overflow: hidden; ">
+  <main class="bodybox text-white  bg-black opacity-50  absolute w-full" style="height: 100vh;  z-index: -1 !important; overflow: hidden; " >
+  </main>
+  <header class="text-center py-2 " style="">
+    <h1 class="text-4xl font-extrabold" style="color:goldenrod ;">VICKY | CRICKET ANALYST </h1>
+    <img src="logo.jpg" class="w-16 h-16  place-self-center my-2 shadow shadow-white" alt="">
+    <p class="text-lg mt-2">🏏 TIPPER MOST TRUSTED AND OLDEST 🏏</p>
+  </header>
+
+  <!-- Logos Section -->
+  <section class="flex gap-2 justify-around" >
+    <div class=" grid place-items-center gap-2 ">
+    <img src="img.jpeg" alt="" class="shadow-lg w-16 h-16 border-4 " style="border-color: goldenrod;">
+    <img src="img.jpg" alt="" class="shadow-lg w-16 h-16 border-4 " style="border-color: goldenrod;">
+</div>
+<div class=" grid place-items-center">
+    <div class="grid place-items-center">
+        <div class="loader-container">
+          <div class="circle"></div>
+          <div class="countdown" id="countdown">30</div>
+        </div>
+      </div>
+</div>
+<div class="  grid place-items-center gap-2 ">
+    <img src="img.png" alt="" class="shadow-lg w-16 h-16 border-4 " style="border-color: goldenrod;">
+    <img src="img.webp" alt="" class="shadow-lg w-16 h-16 border-4 " style="border-color: goldenrod;">
+</div>
+  </section>
+
+  <!-- Call to Action -->
+  <div class="text-center mt-8 grid place-items-center ">
+    <a href="https://t.me/+wxhJlkacriJlOGVl">
+      <button class="animated-button border-4 border-black flex place-items-center gap-1"  style="box-shadow: 0px 0px 0px 5px rgb(234, 76, 8); background-color: rgb(234, 76, 8); ">  
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" class="bi bi-telegram" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"/>
+        </svg>
+        JOIN VICKY | CRICKET ANALYST CHANNEL</button>
+    </a>
+    <p class="mt-4 text-sm font-medium uppercase">BBL 44/44 Pass | IPL 74/72 Pass | T20 World Cup 55/54 Pass</p>
+  </div>
+  <div class="grid place-items-center">
+<div class="text-center">
+  <p> 💰BIGGEST TIPPER OF TELEGRAM💰</p>
+   <p class="uppercase">💵💵join karo lakho kamao💵💵</p>
+ 
+</div>
+</div>
+  <footer class="text-center py-4 mt-8 absolute w-full bottom-0" style="background-color: goldenrod;">
+    <p class="text-xs">© 2024 VICKY | CRICKET ANALYST 👑. All Rights Reserved.</p>
+  </footer>
+  <script>
+    let timeLeft = 30; // Start at 30 seconds
+    const countdownElement = document.getElementById("countdown");
+
+    const timerInterval = setInterval(() => {
+      if (timeLeft > 0) {
+        timeLeft--;
+        countdownElement.textContent = timeLeft;
+      } else {
+        // clearInterval(timerInterval);
+        // Add what happens after the timer ends
+        timeLeft=30;
+       
+      }
+    }, 1000);
+  </script>
+  <script>
+    // Disable right-click
+    document.addEventListener('contextmenu', (e) => e.preventDefault());
+  
+    // Disable Ctrl+U (View Source)
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey && e.key === 'u') {
+        e.preventDefault();
+      }
+    });
+  
+    // Disable F12 and Developer Tools
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        e.preventDefault();
+      }
+    });
+  
+  
+  
+  </script>
+  
+</body>
+
+</html>
